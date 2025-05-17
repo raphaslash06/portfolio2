@@ -1,0 +1,78 @@
+body {
+  margin: 0rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #3fa8fd9c 0%, #fffffff5 25%, #fffffff5 75%, #3fa8fd9c 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 300%;
+  animation: animar-fundo 10s ease-in-out infinite;
+  color: white;
+}
+
+@keyframes animar-fundo {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 0% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem;
+  background-color: green;
+}
+
+
+#headeritens {
+  display: flex;
+  justify-content: right;
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  gap: 4rem;
+  margin-right: 4rem;
+}
+
+@media (max-width: 768px) {
+  #headeritens {
+    font-size: 1.6vh;
+    gap: 1.3rem;
+    margin-left: 4rem;
+    
+    
+  }
+}
+
+#nomerapha {
+  color: black;
+  margin-left: 8rem;
+  
+}
+
+@media (max-width: 768px) {
+  #nomerapha{
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    
+  }
+}
+
+.headerclass {
+  text-decoration: none;
+  color: black;
+
+}
+
+@media (max-wdith: 768px) {
+  .headerclass {
+    text-decoration: none;
+    color: black;
+  }
+}
